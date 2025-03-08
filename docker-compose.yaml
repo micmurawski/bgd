@@ -13,6 +13,27 @@ services:
     restart: unless-stopped
     networks:
       - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  sysbiz:
+    build:
+      context: ./sysbiz
+      dockerfile: Dockerfile
+    container_name: sysbiz_app
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - app-network
+    environment:
+      - DATABASE_HOST=postgres
+    volumes:
+      - ./sysbiz:/sysbiz
+    restart: unless-stopped
 
 networks:
   app-network:
