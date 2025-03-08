@@ -1,0 +1,11 @@
+item_id,name,description,price,created_at,seller_id
+1,Smartphone X,Latest smartphone with advanced features,699.99,2025-03-01 10:30:00,3
+2,Designer Jeans,Premium quality designer jeans,129.95,2025-03-01 11:45:00,6
+3,Smart Watch,Fitness tracking and notifications,249.50,2025-03-02 09:15:00,5
+4,Wireless Headphones,Noise-cancelling wireless headphones,159.99,2025-03-02 14:30:00,3
+5,Cookbook Collection,Set of 3 bestselling cookbooks,45.99,2025-03-03 08:45:00,9
+6,Yoga Mat,Premium non-slip yoga mat,29.95,2025-03-03 16:20:00,10
+7,Coffee Maker,Programmable drip coffee maker,79.99,2025-03-04 12:00:00,7
+8,Gaming Mouse,High-precision gaming mouse,59.95,2025-03-04 17:30:00,8
+9,Portable Speaker,Waterproof portable Bluetooth speaker,89.99,2025-03-05 13:10:00,5
+10,Plant Stand,Modern wooden plant stand,34.95,2025-03-05 18:25:00,7

@@ -1,0 +1,11 @@
+user_id,username,email,created_at
+1,johndoe,john.doe@example.com,2025-03-01 10:15:30
+2,janedoe,jane.doe@example.com,2025-03-01 11:22:45
+3,seller_pro,seller.pro@example.com,2025-03-02 09:30:15
+4,bargainhunter,bargain.hunter@example.com,2025-03-02 14:45:22
+5,tech_shop,tech.shop@example.com,2025-03-03 08:10:05
+6,fashionista,fashionista@example.com,2025-03-03 16:33:40
+7,home_decor,home.decor@example.com,2025-03-04 12:20:18
+8,gadget_guru,gadget.guru@example.com,2025-03-04 17:55:33
+9,book_worm,book.worm@example.com,2025-03-05 13:15:27
+10,sports_fan,sports.fan@example.com,2025-03-05 18:40:12
